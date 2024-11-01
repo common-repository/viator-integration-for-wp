@@ -1,0 +1,76 @@
+.viatorwp-tab-content{
+    background: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    margin-top: 0px;
+	  border-top: none;
+}
+
+.viatorwp-tabs-menu{
+	background: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    margin: 10px 20px 0 2px;
+    border-bottom: 2px solid #0085ba;
+}
+
+.viatorwp-tabs-menu li a{
+	font-size: 16px;
+    text-decoration: none;
+    padding: 18px 12px;
+    font-weight: 500;
+    color: #999;
+	box-sizing:content-box;
+}
+
+.viatorwp-tabs-menu li a:hover{
+	border:none;
+	border-bottom: 4px solid #0085ba;
+	color:#23282d;
+}
+
+.viatorwp-tabs-menu li a:focus{
+	outline: none;
+    outline-style:none;
+    box-shadow:none;
+}
+
+.viatorwp-tabs-menu li a.current{
+	color:#23282d;
+	border-bottom: 4px solid #0085ba;
+}
+      
+/* progress bar css ends here */
+
+.viatorwp_settings_div{
+    margin-bottom: 9px;
+    padding: 15px 10px;
+    line-height: 1.3;
+    vertical-align: middle; 
+}
+
+.viatorwp-row {
+  display: flex; /* equal height of the children */
+}
+
+.viatorwp-col {
+  flex: 1; /* additionally, equal width */
+  
+  padding: 1em;
+}
+.viatorwp-td-style{
+    width: 95%;
+    padding: 2%;
+}
+.viatorwp_hide{
+    display: none;
+}
+.viatorwp-query-success{
+    color: #006600;
+}
+.viatorwp-query-error{
+    color: #bf3322;
+}
+div#wp-pointer-0{
+    top: 450px!important;
+ }

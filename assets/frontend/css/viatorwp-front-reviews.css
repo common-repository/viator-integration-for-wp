@@ -1,0 +1,56 @@
+
+.viatorwp-review-heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.viatorwp-review-fa {
+  font-size: 25px;
+}
+
+.viatorwp-review-checked {
+  color: orange;
+}
+
+/* Three column layout */
+.viatorwp-review-side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.viatorwp-review-middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.viatorwp-review-right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.viatorwp-review-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.viatorwp-review-bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .viatorwp-review-side, .viatorwp-review-middle {
+    width: 100%;
+  }
+  .viatorwp-review-right {
+    display: none;
+  }
+}
